@@ -243,21 +243,21 @@ const Work = () => {
                 scale: 1,
                 opacity: 1,
                 stagger: 0.2,
-            }, '-=0.8') // starts 0.8 seconds before the previous animation ends
+            }, '-=0.8')
             .fromTo(dottedLinesRef.current, {
                 opacity: 0,
             }, {
                 opacity: 1,
                 duration: 1,
                 stagger: 0.2,
-            }, '-=2') // starts 0.8 seconds before the previous animation ends
+            }, '-=2')
             .fromTo(lineRef.current, {
                 width: 0,
             }, {
                 width: '100%',
                 duration: 3.5,
                 ease: "power3.inOut"
-            }, '-=2') // starts 1 second before the previous animation ends
+            }, '-=2')
             .fromTo(bottomCardsRef.current, {
                 y: 50,
                 opacity: 0,
@@ -265,7 +265,7 @@ const Work = () => {
                 y: 0,
                 opacity: 1,
                 stagger: 0.2,
-            }, '-=2') // starts 1 second before the previous animation ends
+            }, '-=2')
 
     }, []);
 
