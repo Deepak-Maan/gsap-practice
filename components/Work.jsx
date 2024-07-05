@@ -55,7 +55,7 @@ const Work = () => {
     }, []);
 
     return (
-        <div className='bg-[#0A0F1F] py-[130px]'>
+        <div className='bg-[#0A0F1F] pt-12 sm:py-14 md:py-16 lg:py-24 xl:py-[130px]'>
             <h2 className='text-center text-white text-3xl md:text-4xl lg:text-5xl font-bold pb-16'>Our Work Process</h2>
             <div className='container relative mx-auto px-3 xl:max-w-[1194px]'>
                 <div className="grid md:grid-cols-3 gap-6 max-w-[996px] mr-auto ">
