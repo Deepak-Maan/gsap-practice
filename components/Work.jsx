@@ -71,7 +71,7 @@ const Work = () => {
                     ))}
                 </div>
                 <div className="pl-3 absolute h-full flex flex-col top-0 md:flex-row justify-between md:relative max-w-[936px]">
-                    <div className='border-t border-[#313543] w-full absolute left-3 top-1/2 max-w-[920px]'></div>
+                    <div className='border-t border-[#313543] hidded md:flex w-full absolute left-3 top-1/2 max-w-[920px]'></div>
                     {[1, 2, 3, 4, 5, 6].map((num, index) => (
                         <div key={index} className='max-w-[54px] relative py-[52px]'>
                             <Image
